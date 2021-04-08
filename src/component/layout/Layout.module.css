@@ -1,0 +1,44 @@
+.container {
+    padding: 2rem 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.main {
+    padding: 1rem 1.5rem;
+}
+
+.footer {
+    border-top: 1px solid #b3b3b3;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.svg {
+    cursor: pointer !important;;
+    fill: var(--text-color);
+
+}
+
+.headerChaneColor {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--text-color)
+}

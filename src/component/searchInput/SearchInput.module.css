@@ -1,0 +1,34 @@
+
+.inputContent {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-dark);
+    border-radius: 3px;
+}
+
+.inputContent svg {
+    position: absolute;
+    top: auto;
+    left: 5px;
+    right: 0;
+    bottom: auto;
+    color: var(--text-color-secundary);
+}
+
+.inputSearch {
+    border: none;
+    outline: none;
+    background-color: var(--background-color-light);
+    padding: 5px 30px;
+    width: 100%;
+    font-weight: 600;
+    height: 35px;
+    color: var(--text-color-secundary);
+}
+
+.inputSearch:placeholder-shown {
+    font-weight: bold;
+    color: var(--text-color-secundary);
+}
